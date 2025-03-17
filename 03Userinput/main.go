@@ -19,5 +19,5 @@ func main() {
 	fmt.Println("Rating for our given service is",input)
 	fmt.Printf("Tye of Rating is:%T",input)  //But there is one problem here it is showing type of input is string.
 
-	//Note: If we are not concerned with input then instead of input we can also write like '_'.
+	//Note: If we are not concerned with input then istead of input we can also write like '_'.
 }
