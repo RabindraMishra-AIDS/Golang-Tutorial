@@ -5,7 +5,7 @@ import (
 func main()  {
 	fmt.Println("Welcome to Arrays in GOLANG")
 
-	var myHero [3]string
+	var myHero [3]string //Here [3] indicates size of array of type string
 	myHero[0]="Dr.APJ Abdul Kalam"
 	myHero[2]="The Great Ashok Samrat"
 
