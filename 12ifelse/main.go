@@ -24,7 +24,7 @@ func main() {
 		fmt.Println("Number is odd")
 	}
 
-	//In case of API handling we can use this syntax of initializing and checking the condistions
+	//In case of API handling we can use this syntax of initializing and checking the conditions
 	if num:=4;num<10{
 		fmt.Println("Number is Less than 10")
 	}else{
