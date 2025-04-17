@@ -38,8 +38,8 @@ func main() {
 		loopvalue--
 	}
 
-	//Continue : Simply skips that Prticular iteration.
-	//Break :Terminates the Loop.
+	//Continue : Simply skips that Particular iteration.
+   //Break :Terminates the Loop.
 
 rm:
 	fmt.Println("Welcome to world of Golang")
