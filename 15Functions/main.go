@@ -38,6 +38,6 @@ func proAdder(value ...int)int{
 }
 // We can return two values also in a function 
 func special()(int,string){ // will return int and string
-	return 10,"Hello"
+	return 10,"Hello."
 
 }
