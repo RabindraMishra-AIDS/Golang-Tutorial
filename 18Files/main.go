@@ -26,7 +26,7 @@ func main() {
 
 	//######################## Reading a File ###########################
 
-	//Unlike file creation reading a does not requires os utility thus for thsi we use ioutil.
+	//Unlike file creation reading  does not requires os utility thus for this we use ioutil.
 	readfile1("./gofile.txt")
 
 }
