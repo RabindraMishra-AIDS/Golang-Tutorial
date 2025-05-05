@@ -27,7 +27,7 @@ type User struct { //Declare first letter in Capital ie. Struct name "User" its 
 }
 //Use printf while formating the the output strings
 
-func(rab User) GetStatus(){ //Here rab is a type of User. 
+func(rab User) GetStatus(){ //Here rab is a type of User. GetStatus is Method Name
 	fmt.Println("Is User Verified?=>",rab.Verified) //If we want to export the Method First letter must be capital here it is "GetStatus"
 
 }
