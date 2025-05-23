@@ -5,7 +5,7 @@ import (
 	"net/url"
 )
 
-const myurl string = "https://www.hindustantimes.com/world-news/pakistan-army-spokesman-channels-terrorist-hafiz-saeed-in-fresh-threat-to-india-if-you-block-our-water-101747959032272.html"
+const myurl string = "https://www.isro.gov.in/"
 
 func main() {
 	fmt.Println("Handling URL in Go")
@@ -31,8 +31,8 @@ func main() {
 
 	partsOfUrl:=&url.URL{ //Here we need to Pass Reference instead of actual copy
 		Scheme:"https",
-		Host:"www.hindustantimes.com",
-		Path:"/world-news/pakistan-army-spokesman-channels-terrorist-hafiz-saeed-in-fresh-threat-to-india-if-you-block-our-water-101747959032272.html",
+		Host:"www.isro.gov.in",
+		Path:"/",
 		RawPath:"Rabindra",
 
 	}
